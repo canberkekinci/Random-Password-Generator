@@ -33,7 +33,6 @@ function passwordGenerator(length, includeLowercase, includeUppercase, includeNu
         password += allowedChars[randomIndex];
     }
 
-    document.getElementById("output").innerHTML = password;
     return `Generated password: ${password}`;
 
 }
